@@ -5,12 +5,15 @@ self-hosted AI agent stack. Each skill is a verified walkthrough distilled from
 first-hand setup in the [agent-dev](https://github.com/jasonjgarcia24) project —
 not vibes, not model memory.
 
-**Initial setup cost: ~$0 out of pocket** *(as of 2026-05-29)* — every component
-runs on a free tier or free credit: Composio (20k tool calls/mo), AgentMail (3
-inboxes, 3k emails/mo), and Telegram are free with no card; E2B ships a **$100
-one-time credit** (no card). The only real spend is pay-as-you-go model tokens
-via OpenRouter — a fraction of a cent per test exchange. (The full stack was
-exercised end-to-end for **under $0.01** of the E2B credit.)
+**Initial setup cost: ~$5 out of pocket** *(as of 2026-05-29)* — almost
+everything is free: Composio (20k tool calls/mo), AgentMail (3 inboxes, 3k
+emails/mo), and Telegram are free with no card; E2B ships a **$100 one-time
+credit** (no card). The one real out-of-pocket item is **OpenRouter**, which
+needs a prepaid credit balance to use its API — a **$5 minimum top-up** gets you
+started. Actual consumption is tiny: model tokens run a fraction of a cent per
+test exchange, and the full stack was exercised end-to-end for **well under
+$0.01** of that OpenRouter balance plus **under $0.01** of the E2B credit. So the
+$5 is a floor you mostly don't spend, not a recurring cost.
 
 | Skill | Stands up |
 |---|---|
