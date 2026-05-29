@@ -1,0 +1,19 @@
+{
+  "name": "jason-agent-stack",
+  "owner": {
+    "name": "Jason J. Garcia"
+  },
+  "metadata": {
+    "description": "Verified setup runbooks for a self-hosted AI agent stack (Hermes, OpenRouter, Composio, AgentMail, Telegram, E2B)."
+  },
+  "plugins": [
+    {
+      "name": "agent-stack",
+      "source": {
+        "source": "github",
+        "repo": "jasonjgarcia24/agent-stack"
+      },
+      "description": "Six source-grounded setup skills for standing up a self-hosted AI agent stack: a Hermes harness on OpenRouter, Composio one-connector app reach, AgentMail per-agent inboxes, a watchdog-backed Telegram gateway, E2B cloud-desktop VMs, and Claude Code provisioned inside an E2B VM."
+    }
+  ]
+}

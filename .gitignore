@@ -1,0 +1,32 @@
+# Secrets — never commit (this plugin's whole point is keeping these out of git)
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials.json
+token.json
+
+# The agent state home these skills write to (in case anyone clones into it)
+.hermes/
+
+# Python / venv artifacts from the bundled scripts
+__pycache__/
+*.pyc
+.venv/
+venv/
+e2b-venv/
+*.egg-info/
+
+# Local eval/optimization workspaces (not part of the shipped plugin)
+*-workspace/
+evals/results/
+
+# Generated screenshots from running the bundled E2B scripts
+skills/setup-e2b-vm/scripts/*.png
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
