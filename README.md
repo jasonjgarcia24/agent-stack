@@ -5,6 +5,13 @@ self-hosted AI agent stack. Each skill is a verified walkthrough distilled from
 first-hand setup in the [agent-dev](https://github.com/jasonjgarcia24) project —
 not vibes, not model memory.
 
+**Initial setup cost: ~$0 out of pocket** *(as of 2026-05-29)* — every component
+runs on a free tier or free credit: Composio (20k tool calls/mo), AgentMail (3
+inboxes, 3k emails/mo), and Telegram are free with no card; E2B ships a **$100
+one-time credit** (no card). The only real spend is pay-as-you-go model tokens
+via OpenRouter — a fraction of a cent per test exchange. (The full stack was
+exercised end-to-end for **under $0.01** of the E2B credit.)
+
 | Skill | Stands up |
 |---|---|
 | `setup-hermes-openrouter` | A Hermes Agent harness on OpenRouter (the base layer) |
